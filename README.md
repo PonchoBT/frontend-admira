@@ -1,7 +1,5 @@
 # Admira Analytics Dashboard
 
-Welcome to Alfonso Balderas personal website.
-
 ### Technologies Used
 Vite
 MUI 
