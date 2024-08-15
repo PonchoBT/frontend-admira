@@ -17,7 +17,7 @@ const AnalyticsChart: React.FC<AnalyticsChartProps> = ({ data }) => {
           </Typography>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={data}>
-              <CartesianGrid strokeDasharray="3 3" />
+              <CartesianGrid strokeDasharray="1 5" />
               <XAxis dataKey="fecha" />
               <YAxis />
               <Tooltip />

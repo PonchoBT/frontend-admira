@@ -17,7 +17,7 @@ const CampaignChart: React.FC<CampaignChartProps> = ({ data }) => {
           </Typography>
           <ResponsiveContainer height={300}>
             <BarChart data={data}>
-              <CartesianGrid strokeDasharray="3 3" />
+              <CartesianGrid strokeDasharray="1 5" />
               <XAxis dataKey="nombre" />
               <YAxis />
               <Tooltip />
