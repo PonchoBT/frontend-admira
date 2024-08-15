@@ -59,6 +59,27 @@ const DemographicsPie: React.FC<DemographicsPieProps> = ({ data }) => {
                   <Tooltip />
                 </PieChart>
               </ResponsiveContainer>
+              <Grid
+                container
+                spacing={2}
+                justifyContent="center"
+                sx={{ marginTop: 2 }}
+              >
+                <Grid item>
+                  <Grid container alignItems="center" spacing={1}>
+                    <Grid item>
+                      <Typography sx={{ color: "#0088fe" }}>18-24</Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+                <Grid item>
+                  <Grid container alignItems="center" spacing={1}>
+                    <Grid item>
+                      <Typography sx={{ color: "#82ca9d" }}>25-34</Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+              </Grid>
             </CardContent>
           </Grid>
 
@@ -94,6 +115,27 @@ const DemographicsPie: React.FC<DemographicsPieProps> = ({ data }) => {
                   <Tooltip />
                 </PieChart>
               </ResponsiveContainer>
+              <Grid
+                container
+                spacing={2}
+                justifyContent="center"
+                sx={{ marginTop: 2 }}
+              >
+                <Grid item>
+                  <Grid container alignItems="center" spacing={1}>
+                    <Grid item>
+                      <Typography sx={{ color: "#0088fe" }}>Hombre</Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+                <Grid item>
+                  <Grid container alignItems="center" spacing={1}>
+                    <Grid item>
+                      <Typography sx={{ color: "#82ca9d" }}>Mujer</Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+              </Grid>
             </CardContent>
           </Grid>
         </Grid>
