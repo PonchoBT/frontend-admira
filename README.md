@@ -1,7 +1,7 @@
 # Admira Analytics Dashboard
 
 ### Technologies Used
-Vite,
+Vite React.js,
 MUI,
 Recharts and 
 Netlify
