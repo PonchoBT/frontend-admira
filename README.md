@@ -2,6 +2,7 @@
 
 ### Technologies Used
 Vite React.js,
+TS,
 MUI,
 Recharts and 
 Netlify
