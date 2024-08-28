@@ -1,9 +1,9 @@
 # Admira Analytics Dashboard
 
 ### Technologies Used
-Vite
-MUI 
-Recharts
+Vite,
+MUI,
+Recharts and 
 Netlify
 
 ### Starting the Application
